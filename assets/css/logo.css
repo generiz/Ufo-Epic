@@ -1,0 +1,14 @@
+.header-background {
+    background-color: #006770;
+  }
+  
+  .logo-text {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
+    margin-right: 1rem;
+    color: #D8D9D7; /* Cambia el color del texto */
+  }
+  
+  .small-logo-image {
+    height: 50px; /* Ajusta el tamaño del pequeño logo */
+  }

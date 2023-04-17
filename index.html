@@ -8,9 +8,20 @@
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/footer.css">
   <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/luegocambio.css">
+  <link rel="stylesheet" href="assets/css/logo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet"> <!-- Añade la fuente JP SAWARY GO -->
 </head>
+<select id="languageSelect">
+  <option value="es">Español</option>
+  <option value="en">English</option>
+</select>
 <body>
-  <header>
+  <header class="header-logo header-background">
+    <div class="logo-container">
+      <span class="logo-text">UFO Epic Solutions</span>
+      <img src="assets/img/solo-logo.png" alt="Pequeño logo de UFO Epic Solutions" class="small-logo-image">
+    </div>
     <nav>
       <a href="#" data-i18n="home">Inicio</a>
       <a href="#" data-i18n="services">Servicios</a>
@@ -37,16 +48,16 @@
       </div>
       <div>
         <h3 data-i18n="ufoSoftware">UFO Software Solutions</h3>
-        <p data-i18n="ufoSoftwareDesc">Desarrollo de aplicaciones, sitios web y provisión de programadores por hora.</p>
+        <p data-i18n="ufoSoftwareDesc">Desarrollo de aplicaciones, sitios web y provisión de Talento a la medida.</p>
       </div>
     </section>
   </main>
   
-  <footer>
+  <footer class="footer-logo">
     <p>&copy; <span data-i18n="currentYear">2023</span> UFO Epic Solutions. Todos los derechos reservados.</p>
   </footer>
   
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/language.js"></script>
+  <script src="assets/js/languaje.js"></script>
 </body>
 </html>

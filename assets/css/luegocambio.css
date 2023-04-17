@@ -1,0 +1,30 @@
+/* Estilos de pie de página */
+.footer-logo {
+    background: #006770;
+    padding: 1rem;
+    text-align: center;
+    color: #D8D9D7;
+  }
+  
+  .header-logo {
+    background: #006770;
+    padding: 1rem;
+    color: #D8D9D7;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    padding: 0.5rem;
+    color: #D8D9D7;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* Estilos generales
+  

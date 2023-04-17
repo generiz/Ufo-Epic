@@ -1,0 +1,43 @@
+.header-background {
+  background-color: #006770;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  font-size: 24px;
+  margin-right: 1rem;
+  color: #D8D9D7;
+}
+
+.small-logo-image {
+  height: 50px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  padding: 0.5rem;
+  color: #D8D9D7;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+
+
+
